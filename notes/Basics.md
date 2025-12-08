@@ -117,5 +117,5 @@ LEARNING C PROGRAMMING: 1. Basics
 				1 → stdout      (the screen)
 				2 → stderr      (the screen)
 				Separating input, output, and errors makes programs more flexible and easier to debug.			
-✔️ Projects_00	→	Math Toolkit v1
+✔️ Projects_00	→	calculator
 ---
