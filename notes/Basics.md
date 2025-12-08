@@ -9,7 +9,7 @@ LEARNING C PROGRAMMING: 1. Basics
 				✔️• Project for Chapter.
 🔻 C Program Structure:
 ---
-		- Header File is in Compiler Path:		#include <filename.h>
+		- Header File is in Compiler Path:			#include <filename.h>
 		- Header File is in Project Directory:		#include "filename.h"
 			 header file <= just prototypes
 										  
@@ -29,7 +29,7 @@ LEARNING C PROGRAMMING: 1. Basics
       
 			- Compilation			→Compilation generates assembly code from your C source file.
 									                      (main.c → main.s)
-			- Assembly			→The assembler converts assembly code into machine code.
+			- Assembly				→The assembler converts assembly code into machine code.
 									                      (main.s → main.o)
 			- Linking				→Linking combines all object files and libraries into the final executable.	
 									                (main.o + printf.o + other libs → a.out)
@@ -39,7 +39,7 @@ LEARNING C PROGRAMMING: 1. Basics
 		(compiler like gcc)	gcc = GNU Compiler Collection
 🔻 Primary Data Types:
 ---
-{		Fundamental Types:    	-Integer		-Floating		-Character
+		Fundamental Types:    	-Integer		-Floating		-Character
 		Derived Types:			-Arrays		  	-Pointers		-Structures		-Enums
 
 	Data types define what kind of data a variable can store, how much memory it uses, and what
@@ -48,12 +48,14 @@ LEARNING C PROGRAMMING: 1. Basics
 										                        (no type, no checked by compiler)
 					const int SIZE = 10;	<-- const creates a typed constant that cannot be changed.
 										                                  (read-only)
-{		Data Types:	int				4bytes
+		Data Types:	int				4bytes
 					short			2bytes
-					long			8bytes			
+					long			8bytes		
+					
 					float			4bytes
 					double		  	8bytes	(double offers higher precision than float)
-					long double		12byte	(long double provides even more precision)		
+					long double		12byte	(long double provides even more precision)	
+					
 					char			1byte	(max 127 = 1byte)
 					string		    A C-string is an array of chars ending with a null terminator.
 					Pointer		    A pointer stores the memory address of another variable.
@@ -97,15 +99,15 @@ LEARNING C PROGRAMMING: 1. Basics
 				printf();  scanf();  putchar();  getchar();  puts(); (Print a String with a Newline)
 				fgets();
 
-			<unistd.h>	👈 low-level system I/O
+			<unistd.h>		👈 low-level system I/O
 				write();  read();
 				
-				write(1, &c, 1);		write sends raw bytes to an output file descriptor.
+				write(1, &c, 1);		// write sends raw bytes to an output file descriptor.
 				first argument = file descriptor
 				tow argument   = pointer to data
 				three argument = number of bytes
 				
-				read(0, buf, 10);	read reads raw bytes from an input file descriptor.
+				read(0, buf, 10);		// read reads raw bytes from an input file descriptor.
 				( 0 = stdin )
 			
 			🔥 Buffering:	stdio is buffered, write() is unbuffered.
