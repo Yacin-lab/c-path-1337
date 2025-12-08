@@ -7,7 +7,6 @@ LEARNING C PROGRAMMING: 1. Basics
 				✔️• Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
-	-------------------------------------------------------------------------------------------------------------------	
 🔻 C Program Structure:
 ---
 		- Header File is in Compiler Path:		#include <filename.h>
@@ -23,9 +22,8 @@ LEARNING C PROGRAMMING: 1. Basics
 		  A statement is a single instruction ending with a semicolon.
 		  
 		  - Macros	→exampl:		#define PI 3.14159
-	-------------------------------------------------------------------------------------------------------------------
-	🔻 Compiling a C program:
-	---
+🔻 Compiling a C program:
+---
 		⚠️​ There are four phases for a C program to become an executable:
 			- Pre-processing 		→Preprocessing expands macros and includes header files.
       
@@ -39,27 +37,24 @@ LEARNING C PROGRAMMING: 1. Basics
 		Compilation takes your C code, preprocesses it, checks it,
 		turns it into machine code, links it with libraries, and produces an executable program.
 		(compiler like gcc)	gcc = GNU Compiler Collection
-	--------------------------------------------------------------------------------------------------------------------
-	🔻 Primary Data Types:
-	---
-		Fundamental Types:    -Integer		-Floating		-Character
-		Derived Types:			  -Arrays		  -Pointers		-Structures  -Enums
-	
+🔻 Primary Data Types:
+---
+{		Fundamental Types:    	-Integer		-Floating		-Character
+		Derived Types:			-Arrays		  	-Pointers		-Structures		-Enums
+
 	Data types define what kind of data a variable can store, how much memory it uses, and what
 	operations are allowed.
 		Constants:	#define PI 3.14		<-- #define creates a constant by replacing text before compilation.
 										                        (no type, no checked by compiler)
 					const int SIZE = 10;	<-- const creates a typed constant that cannot be changed.
 										                                  (read-only)
-		Data Types:	int			4bytes
-					short			    2bytes
-					long			    8bytes
-					
-					float			    4bytes
-					double		    8bytes	(double offers higher precision than float)
-					long double	  12byte	(long double provides even more precision)
-					
-					char			    1byte	(max 127 = 1byte)
+{		Data Types:	int				4bytes
+					short			2bytes
+					long			8bytes			
+					float			4bytes
+					double		  	8bytes	(double offers higher precision than float)
+					long double		12byte	(long double provides even more precision)		
+					char			1byte	(max 127 = 1byte)
 					string		    A C-string is an array of chars ending with a null terminator.
 					Pointer		    A pointer stores the memory address of another variable.
 					
@@ -89,14 +84,12 @@ LEARNING C PROGRAMMING: 1. Basics
 									    };
 							how to use ==>	union Data d;
 
-											        d.x = 10;
-											        printf("%d\n", d.x);
+											d.x = 10;
+											printf("%d\n", d.x);
 											
-											        d.c = 'A';		    // overwrites x because same memory
-
-	--------------------------------------------------------------------------------------------------------------------
-	🔻 Inputs and Outputs functions:
-	---
+											d.c = 'A';		    // overwrites x because same memory
+🔻 Inputs and Outputs functions:
+---
 		I/O functions allow a C program to read input and print output.
 		
 		- We have two I/O Libraries in C:
@@ -121,9 +114,6 @@ LEARNING C PROGRAMMING: 1. Basics
 				0 → stdin       (keyboard)
 				1 → stdout      (the screen)
 				2 → stderr      (the screen)
-				Separating input, output, and errors makes programs more flexible and easier to debug.
-
-	--------------------------------------------------------------------------------------------------------------------
-				
-	​✔️ Projects_00	→	Math Toolkit v1
-	---
+				Separating input, output, and errors makes programs more flexible and easier to debug.			
+✔️ Projects_00	→	Math Toolkit v1
+---
