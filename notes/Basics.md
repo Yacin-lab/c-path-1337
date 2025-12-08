@@ -1,13 +1,14 @@
 
-	ROADMAP TO LEARNING C PROGRAMMING
--------------------------------------------------------------------------------------------------------------------------
+	##ROADMAP TO LEARNING C PROGRAMMING
+---
 	
-	1. Basics:
+	##1. Basics:
 				✔️• Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
 	-------------------------------------------------------------------------------------------------------------------	
 	🔻 C Program Structure:
+	---
 		- Header File is in Compiler Path:		#include <filename.h>
 		- Header File is in Project Directory:		#include "filename.h"
 			 header file <= just prototypes
@@ -23,6 +24,7 @@
 		  - Macros	→exampl:		#define PI 3.14159
 	-------------------------------------------------------------------------------------------------------------------
 	🔻 Compiling a C program:
+	---
 		⚠️​ There are four phases for a C program to become an executable:
 			- Pre-processing 		→Preprocessing expands macros and includes header files.
       
@@ -38,6 +40,7 @@
 		(compiler like gcc)	gcc = GNU Compiler Collection
 	--------------------------------------------------------------------------------------------------------------------
 	🔻 Primary Data Types:
+	---
 		Fundamental Types:    -Integer		-Floating		-Character
 		Derived Types:			  -Arrays		  -Pointers		-Structures  -Enums
 	
@@ -92,6 +95,7 @@
 
 	--------------------------------------------------------------------------------------------------------------------
 	🔻 Inputs and Outputs functions:
+	---
 		I/O functions allow a C program to read input and print output.
 		
 		- We have two I/O Libraries in C:
@@ -121,3 +125,4 @@
 	--------------------------------------------------------------------------------------------------------------------
 				
 	​✔️ Projects_00	→	Math Toolkit v1
+	---
