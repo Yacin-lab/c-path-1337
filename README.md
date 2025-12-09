@@ -46,6 +46,6 @@ Reusable templates:
 
 ---
 
-##🎯​ Goals
+## 🎯​ Goals
 - Master C fundamentals  
 - Improve problem-solving 
