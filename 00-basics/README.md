@@ -71,8 +71,8 @@ BASICS
 								    char	initial;
 								    };
 						how to use ==>	struct Student s1;
-										        s1.age = 20;
-										        s1.initial = 'Y';
+										s1.age = 20;
+										s1.initial = 'Y';
                             
 					🔥 union,	A union stores different data types in the same memory location,
 							but only one member is valid at a time.
@@ -80,12 +80,12 @@ BASICS
 									    int		x;
 									    char 	c;
 									    };
-							how to use ==>	union Data d;
+						how to use ==>	union Data d;
 
-											d.x = 10;
-											printf("%d\n", d.x);
+										d.x = 10;
+										printf("%d\n", d.x);
 											
-											d.c = 'A';		    // overwrites x because same memory
+										d.c = 'A';		    // overwrites x because same memory
 🔻 Inputs and Outputs functions:
 ---
 		I/O functions allow a C program to read input and print output.
