@@ -1,4 +1,5 @@
 C Learning – Structured Roadmap
+---
 
 This repository contains my organized learning path for the C programming language.
 Each main folder focuses on a specific core area of C, with examples, exercises, and small applied projects.
