@@ -21,7 +21,7 @@ One-dimensional and multi-dimensional arrays, basic searching and sorting.
 Pointer fundamentals, pointer arithmetic, memory access, and applications.
 
 ### `/05-strings`
-Manual string manipulation functions similar to 1337/42 style.
+Manual string manipulation functions similar to 42 style.
 
 ### `/06-structures`
 Introduction to struct usage and data organization.
