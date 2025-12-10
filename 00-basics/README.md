@@ -1,7 +1,7 @@
 
 BASICS
 ---
-				✔️• Learn syntax, compilation, variables, types, operators.
+				- [x] Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
 🔻 C Program Structure:
