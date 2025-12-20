@@ -23,7 +23,7 @@ Each main folder focuses on a specific core area of C, with examples, exercises,
 ### `/05-structures`
     Introduction to struct usage and data organization.
 
-### `/Algorithms_Logic`
+### `/Algorithms`
     Algorithm practice organized into levels.
 
 ### `/exercism`
