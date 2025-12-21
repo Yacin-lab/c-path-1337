@@ -1,4 +1,4 @@
-# 02 - Functions (C Basics)
+# Functions 
 
 This section covers the basics of **functions in C**.
 
